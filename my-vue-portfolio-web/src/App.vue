@@ -30,16 +30,16 @@
       }
    }
    title-text-content p {
-      margin-bottom: 0
-      color: #fee12a
+      margin-bottom: 0;
+      color: #fee12a;
    }
    title-text-content h2 {
-      margin-top: 0
+      margin-top: 0;
    }
 }
 
 .card-content p {
-   line-height: 1.5
-   margin: 30px auto
+   line-height: 1.5;
+   margin: 30px auto;
 }
 </style>
