@@ -12,10 +12,34 @@
   </div>
 </template>
 
-<style lang="sass" scoped>
-.about-card
-   background: #33aac1
-   padding: 3em
-   border-radius: 10px
-   color: white
+<style scoped>
+.about-card {
+   background: #33aac1;
+   padding: 3em;
+   border-radius: 10px;
+   color: white;
+   .card-title {
+      display: flex;
+      text-align: center;
+      background: pink;
+      border-radius: 10px;
+      .avatar {
+         border: 1px solid #4aabc2;
+         border-radius: 50%;
+         margin: 0 30px;
+      }
+   }
+   title-text-content p {
+      margin-bottom: 0
+      color: #fee12a
+   }
+   title-text-content h2 {
+      margin-top: 0
+   }
+}
+
+.card-content p {
+   line-height: 1.5
+   margin: 30px auto
+}
 </style>
